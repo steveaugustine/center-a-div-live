@@ -1,0 +1,22 @@
+* {
+    padding: 0;
+    margin: 0;
+    outline: 0;
+  }
+  header#header {
+    background: #1e1f26;
+    height: 65px;
+  }
+  header#header > h1 {
+    padding: 0;
+    text-align: center;
+    color: #fff;
+    font-weight: 700;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    line-height: 35px;
+    font-family: 'IBM Plex Sans', sens-serif;
+  }
