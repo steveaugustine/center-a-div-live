@@ -42,13 +42,13 @@
   }
   .bird2{
     position:absolute;
-    top: -25%;
-    left: 37%;
+    top: -34%;
+    left: 33%;
     scale: 45%;
     animation: MoveUpDown 2s linear infinite;
   } .bird3{
     position:absolute;
-    top: -32%;
+    top: -33%;
     left: -20%;
     scale:50%;
     
@@ -56,7 +56,7 @@
   } .bird4{
     position:absolute;
     top: 0.1%;
-    left:45%;
+    left: 30%;
     scale: 50%;
     animation: MoveUpDown 2s linear infinite;
   }
