@@ -20,6 +20,9 @@
     line-height: 35px;
     font-family: 'IBM Plex Sans', sens-serif;
   }
+  body{
+    overflow: hidden;
+  }
 .content{
     background-image: url("/assets/river-hill-background.png");
     background-size:cover;
@@ -27,6 +30,8 @@
     background-repeat: no-repeat;
     height: 100vh;
     width: 100%;
+    box-sizing:border-box;
+    
   }
   .bird{
     position:absolute;
@@ -49,8 +54,8 @@
     animation: MoveUpDown 2s linear infinite;
   } .bird4{
     position:absolute;
-    top: 1%;
-    right: 1%;
+    top: 0.1%;
+    left:45%;
     scale: 50%;
     animation: MoveUpDown 2s linear infinite;
   }
